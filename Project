@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINTECH Consulting</title>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <style>
+
+        @media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+        ;
+    }
+    }
+    .topnavbar{background-color:lightgray;padding:10px;text-align:center;}
+    .topnavlink{text-align:center;
+    font-size:30px;
+    font-family:arial;
+    text-decoration:none;
+    color:white;
+    padding:10px;}
+    topnavlink:hover {background-color:yellow;}
+    }
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input:submit{width:300px;}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-weight: bold;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #1E2A47;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    
+   
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FINTECH Consulting</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Home Section -->
+    <header id="home" class="jumbotron text-center text-white" style="background: #1E2A47;">
+        <div class="container">
+            <h1 class="display-4">Welcome to ABC Consulting</h1>
+            <p>Your trusted partner in business growth and strategy.</p>
+            <a href="#services" class="btn btn-primary btn-lg">Explore Our Services</a>
+        </div>
+    </header>
+
+<!-- About Section -->
+ <section id="about" class="py-5">
+  <div class="container">
+            <h2 class="text-center">About Us</h2>
+<p>At FINTECH Consulting, we provide innovative solutions for businesses to reach their full potential. Our experienced team specializes in business strategy, marketing, and operational optimization.</p>
+</div>
+
+<!-- Service Section -->
+   <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Strategy</h5>
+                            <p class="card-text">We help you develop a journey for growth and success in the competitive market.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Services</h5>
+                            <p class="card-text">Our marketing experts create personalized strategies to boost your brand's rate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Operational Optimization</h5>
+                            <p class="card-text">We streamline your processes to maximize efficiency and reduce costs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <section id="contact">
+     <div class="container">
+    <h3 class="text-center">Contact Us</h3>
+    
+      <form post action method-email="yuusufady2000@gmail.com">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+                </div>
+  <div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Submit</button>
+
+</div>
+            </form>
+        </div>
+    </section>
+ 
+  <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
